@@ -4,6 +4,8 @@ Vietnamese is a language that is quite difficult to access and search. Because i
 
 ## Handle query keywork and debt settlement
 ```
+//Using 'speakingurl' library: npm install speakingurl -save
+const getSlug=require('speakingurl');
 var sign = [];
 sign[0] = ['uo', 'ươ', 'ướ', 'ườ', 'ừơ', 'ưở', 'ửơ', 'ữơ', 'ưỡ', 'ựơ', 'ượ']
 sign[1] = ['a','à','á','ã','ả','â','ấ','ầ','ẫ','ẩ','ắ','ằ','ẵ','ẳ','ạ','ậ','ặ'];
