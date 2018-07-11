@@ -1,6 +1,6 @@
 {
   "name": "vietnamese-query",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Module support for query $ilike in vietnamese with mongoose",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

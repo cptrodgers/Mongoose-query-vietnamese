@@ -17,7 +17,7 @@ User.find({'fullName': vietnamese.iLikeVietnamese(str)}).exec((err, users) => {
 })
 ```
 
-## Use with split funtion:
+## Use with split function:
 
 ``` javascript
 const splitVienamese = require('vietnamese-query').splitVienamese
