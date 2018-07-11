@@ -1,6 +1,6 @@
 {
   "name": "vietnamese-query",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Module support for query $ilike in vietnamese with mongoose",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/cptrodgers/vietnamese-query.git"
   },
-  "keywords": ["vietnamese", "slug", "mongoose"],
+  "keywords": [
+    "vietnamese",
+    "slug",
+    "mongoose"
+  ],
   "author": "Rodgers <cptrogers@gmail.com>",
   "license": "MIT",
   "bugs": {
