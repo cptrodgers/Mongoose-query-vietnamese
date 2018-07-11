@@ -12,7 +12,7 @@ sign[5] = ['u', 'ù', 'ú', 'ủ', 'ũ', 'ư', 'ứ', 'ừ', 'ử', 'ữ', 'ụ'
 sign[6] = ['y', 'ý', 'ỳ', 'ỷ', 'ỹ', 'ỵ']
 
 
-export function slugVienamese(str: string): string[] {
+export function splitVienamese(str: string): string[] {
     const keys: string[] = []
     while (str.indexOf(" ") >= 0) {
         var word = getSlug(str.slice(0, str.indexOf(" ")))
@@ -30,7 +30,7 @@ export function slugVienamese(str: string): string[] {
 }
 
 export function iLikeVietnamese(str: string): any {
-    return { $in: slugVienamese(str).map((key) => new RegExp(key, 'i')) }
+    return { $in: splitVienamese(str).map((key) => new RegExp(key, 'i')) }
 }
 
 
