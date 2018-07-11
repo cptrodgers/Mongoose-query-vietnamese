@@ -3,7 +3,7 @@
 ## Install:
 
 ```bash
-npm insatll vietnamese-query --save
+npm i vietnamese-query --save
 ```
 
 ## Use with mongoose (same ilike):
